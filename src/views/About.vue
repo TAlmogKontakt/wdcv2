@@ -26,6 +26,7 @@ export default {
       "https://prod-useast-b.online.tableau.com/t/kontaktio/views/NewBest/Dashboard1",
     options = {
       hideTabs: true,
+      hideToolbar: true,
       onFirstInteractive: function () {
           console.log("Run this code when the viz has finished loading.");
         }
